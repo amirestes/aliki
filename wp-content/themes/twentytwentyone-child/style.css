@@ -35,7 +35,26 @@ Text Domain: twentytwentyonechild
 
 
 */ 
-
-h4 {
-    background: blueviolet;
+.site-header{
+    justify-content: center;
 }
+
+@media (max-width: 768px){
+.entry-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+/* /* }
+@media (max-width: 768px) {
+   
+}
+  
+  @media (min-width: 768px) {
+    /* Tablet Styles */
+  } */
+
+
+@media (min-width: 1200px) {
+    /* Desktop Styles */
+} */
