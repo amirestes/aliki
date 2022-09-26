@@ -1,5 +1,6 @@
 <?php
 
+
 function create_custom_post_types() {
     //Dog Post Type
 	register_post_type('dogs',
@@ -12,9 +13,10 @@ function create_custom_post_types() {
 				'all_items' => 'All Dogs'
 			),
 			'public'=> true,
-			// 'has_archive'=> true,
-			// 'rewrite'=>array('slug'=>'dogs'),
-            'menu-icon' => 'dashicons-pets'
+			'has_archive'=> true,
+			'rewrite'=>array('slug'=>'dogs'),
+            
+            
 		),
 		
 	);
